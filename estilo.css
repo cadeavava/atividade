@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-size: 2.5vh;
+  }
+  
+  h2 {
+    padding: 1vw;
+    text-align: center;
+    font-size: 3vh;
+  }
+  
+  h3
+  {
+    text-align: center;
+    margin-bottom: 2vh;
+  }
+
+  #descricao {
+    margin-top: 4vh;
+    text-align: center;
+    margin-bottom: 2vh;
+  }
+  
+  h1 {
+    background-color: rgb(22, 19, 19);
+    text-align: center;
+    font-size: 5vh;
+    margin: 0;
+    padding: 1vh;
+    color: white;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 0.3vh;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 2.8vh;
+  }
+  
+  div{
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 90vw;
+    min-width: 50vw;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  
+  p {
+    font-size: 2.5vh;
+    text-indent: 1vw;
+    margin-top: 1vw;
+  }
+  
+  figure{
+    display: flex;
+    justify-content: center;
+  }
+
+  .gramaado
+  {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+  }
+
+  .teexto
+  {
+    margin-left: 13vw;
+    margin-right: 13vw;
+    text-align: justify;
+  }
+
+  .ptu_img img
+  {
+    width: 70vw;
+  }
+
+  .texxto
+  {
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    text-align: justify;
+  }
+
+  .clima img{
+    height: 60vh;
+    margin-bottom: 2vh;
+  }
+
+  .h3
+  {
+    margin-top: 2vh;
+  }
+
+  .chegar img
+  {
+    width: 90vw;
+  }
+
+  .menu
+  {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+  @media (max-width: 480px)
+  {
+    .gramaado img
+    {
+      width: 100vw;
+      height: auto;
+    }
+
+    h1
+    {
+      font-size: 3vh;
+    }
+
+    .chegar img
+    {
+      height: 30vh;
+    }
+
+    .menu{
+      display: block;
+      align-items: center;
+    }
+
+    .menu img 
+    {
+      height: 3vh;
+    }
+
+    nav {
+       display: none;
+        position: absolute;
+        width: 100%;
+    }
+
+    nav li a
+    {
+      font-size: 2vh ;
+    }
+
+    nav.active {
+        display: flex;
+    }
+  }
